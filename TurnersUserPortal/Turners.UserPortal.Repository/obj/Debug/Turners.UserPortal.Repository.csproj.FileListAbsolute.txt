@@ -1,0 +1,9 @@
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Repository.dll
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Repository.pdb
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Domain.dll
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Domain.pdb
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csprojAssemblyReference.cache
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csproj.CoreCompileInputs.cache
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csproj.CopyComplete
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.dll
+C:\Users\vbose\source\repos\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.pdb
