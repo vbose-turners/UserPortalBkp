@@ -8,7 +8,7 @@ using Turners.UserPortal.Domain;
 
 namespace Turners.UserPortal.Repository
 {
-    public class ActiveDirectoryRepository
+    public class ActiveDirectoryRepository : IUserRepository
     {
         private DirectoryEntry _rootEntry;
 

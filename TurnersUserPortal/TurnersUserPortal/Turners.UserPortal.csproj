@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.8.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -145,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DependencyConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -209,6 +216,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Turners.ActiveDirectory.Service\Turners.UserPortal.Service.csproj">
+      <Project>{5BB50848-DAF5-41C8-A0CE-7C6EF62CE831}</Project>
+      <Name>Turners.UserPortal.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Turners.UserPortal.Domain\Turners.UserPortal.Domain.csproj">
+      <Project>{61B29477-E982-47E4-A420-4AC2CE0EE5DA}</Project>
+      <Name>Turners.UserPortal.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Turners.UserPortal.Repository\Turners.UserPortal.Repository.csproj">
+      <Project>{A87707C3-5203-4CEB-B7DF-8B0E4F587131}</Project>
+      <Name>Turners.UserPortal.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

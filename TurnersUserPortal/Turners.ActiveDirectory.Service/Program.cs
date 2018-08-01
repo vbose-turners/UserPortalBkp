@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Turners.UserPortal.Repository;
 
-namespace Turners.ActiveDirectory.Service
+namespace Turners.UserPortal.Service
 {
     public class Program
     {

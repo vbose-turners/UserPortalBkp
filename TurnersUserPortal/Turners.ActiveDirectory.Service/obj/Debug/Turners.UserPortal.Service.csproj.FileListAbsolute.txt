@@ -1,0 +1,12 @@
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Service.exe.config
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Service.exe
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Service.pdb
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Domain.dll
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Repository.dll
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Domain.pdb
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\bin\Debug\Turners.UserPortal.Repository.pdb
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Debug\Turners.UserPortal.Service.csprojAssemblyReference.cache
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Debug\Turners.UserPortal.Service.csproj.CoreCompileInputs.cache
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Debug\Turners.UserPortal.Service.csproj.CopyComplete
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Debug\Turners.UserPortal.Service.exe
+C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Debug\Turners.UserPortal.Service.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,8 +11,10 @@ namespace Turners.UserPortal.Domain
     {
         public string Name { get; set; }
 
+        [DisplayName("Job Description")]
         public string JobDescription { get; set; }
 
+        [DisplayName("Telephone Number")]
         public string TelephoneNumber { get; set; }
 
         public string Extension { get; set; }

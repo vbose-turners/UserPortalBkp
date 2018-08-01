@@ -22,3 +22,11 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.turners-navbar {
+    background-color: #0072c6;
+}
+
+.user-table-body{
+    height:300px;
+}

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turners.UserPortal", "TurnersUserPortal\Turners.UserPortal.csproj", "{9C7E1348-7EC5-479B-A1F8-6A4FBE47CE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turners.ActiveDirectory.Service", "Turners.ActiveDirectory.Service\Turners.ActiveDirectory.Service.csproj", "{5BB50848-DAF5-41C8-A0CE-7C6EF62CE831}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turners.UserPortal.Service", "Turners.ActiveDirectory.Service\Turners.UserPortal.Service.csproj", "{5BB50848-DAF5-41C8-A0CE-7C6EF62CE831}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turners.UserPortal.Domain", "Turners.UserPortal.Domain\Turners.UserPortal.Domain.csproj", "{61B29477-E982-47E4-A420-4AC2CE0EE5DA}"
 EndProject

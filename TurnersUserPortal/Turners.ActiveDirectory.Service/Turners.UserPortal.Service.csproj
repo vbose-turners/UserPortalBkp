@@ -7,8 +7,8 @@
     <ProjectGuid>{5BB50848-DAF5-41C8-A0CE-7C6EF62CE831}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Turners.ActiveDirectory.Service</RootNamespace>
-    <AssemblyName>Turners.ActiveDirectory.Service</AssemblyName>
+    <RootNamespace>Turners.UserPortal.Service</RootNamespace>
+    <AssemblyName>Turners.UserPortal.Service</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,8 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IUserService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Turners.UserPortal.Domain\Turners.UserPortal.Domain.csproj">
@@ -57,10 +59,9 @@
       <Project>{A87707C3-5203-4CEB-B7DF-8B0E4F587131}</Project>
       <Name>Turners.UserPortal.Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TurnersUserPortal\Turners.UserPortal.csproj">
-      <Project>{9c7e1348-7ec5-479b-a1f8-6a4fbe47ce89}</Project>
-      <Name>Turners.UserPortal</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
