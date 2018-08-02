@@ -31,7 +31,7 @@ namespace Turners.UserPortal.Service
             //rootEntry.Close();
 
 
-            var repo = new ActiveDirectoryRepository();
+            var repo = new UsersActiveDirectoryRepository();
 
             var users = repo.GetUsers("bose", string.Empty);
 
@@ -42,6 +42,19 @@ namespace Turners.UserPortal.Service
                 Console.WriteLine("Job description: {0}", user.JobDescription);
             }
 
+            var branchesSvc = new BranchesService(new BranchesCsvRepository());
+            var branches = branchesSvc.Branches;
+
+            foreach (var x in branches.Keys)
+            {
+                var branch = branchesSvc.GetBranchByName(x);
+
+                Console.WriteLine("branch name: {0}", branch.Name);
+                Console.WriteLine("branch Aliases: {0}", branch.Aliases);
+                Console.WriteLine("branch Address: {0}", branch.Address);
+
+                Console.WriteLine("\n\n");
+            }
 
             Console.Read();
         }

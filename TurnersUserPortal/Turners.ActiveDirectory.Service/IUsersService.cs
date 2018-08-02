@@ -3,7 +3,7 @@ using Turners.UserPortal.Domain;
 
 namespace Turners.UserPortal.Service
 {
-    public interface IUserService
+    public interface IUsersService
     {
         List<User> GetUsers(string userName, string departmentName);
     }

@@ -201,7 +201,7 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="App_Data\Branches\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

@@ -20,8 +20,8 @@ namespace Turners.UserPortal.App_Start
             // Register dependencies in controllers
             builder.RegisterControllers(typeof(MvcApplication).Assembly);
 
-            builder.RegisterType<ActiveDirectoryRepository>().As<IUserRepository>();
-            builder.RegisterType<UserService>().As<IUserService>();
+            builder.RegisterType<UsersActiveDirectoryRepository>().As<IUserRepository>();
+            builder.RegisterType<UsersService>().As<IUsersService>();
 
             var container = builder.Build();
 

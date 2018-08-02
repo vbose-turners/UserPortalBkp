@@ -8,11 +8,11 @@ using Turners.UserPortal.Domain;
 
 namespace Turners.UserPortal.Repository
 {
-    public class ActiveDirectoryRepository : IUserRepository
+    public class UsersActiveDirectoryRepository : IUserRepository
     {
         private DirectoryEntry _rootEntry;
 
-        public ActiveDirectoryRepository()
+        public UsersActiveDirectoryRepository()
         {
             _rootEntry = new DirectoryEntry("LDAP://auctions.co.nz", "vbose", "Vb100207");
         }

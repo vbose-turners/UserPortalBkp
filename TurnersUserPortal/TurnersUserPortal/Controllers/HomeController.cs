@@ -9,9 +9,9 @@ namespace TurnersUserPortal.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IUserService _userService;
+        private readonly IUsersService _userService;
 
-        public HomeController(IUserService userService)
+        public HomeController(IUsersService userService)
         {
             _userService = userService;
         }

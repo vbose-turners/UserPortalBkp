@@ -8,11 +8,11 @@ using Turners.UserPortal.Repository;
 
 namespace Turners.UserPortal.Service
 {
-    public class UserService : IUserService
+    public class UsersService : IUsersService
     {
         private readonly IUserRepository _repository;
 
-        public UserService(IUserRepository repository)
+        public UsersService(IUserRepository repository)
         {
             _repository = repository;
         }
