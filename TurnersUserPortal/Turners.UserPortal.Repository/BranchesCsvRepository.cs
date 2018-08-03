@@ -7,6 +7,7 @@ using System.IO;
 using Turners.UserPortal.Domain;
 using System.Configuration;
 using System.Text.RegularExpressions;
+using Turners.UserPortal.Helpers;
 
 namespace Turners.UserPortal.Repository
 {
@@ -58,7 +59,7 @@ namespace Turners.UserPortal.Repository
 
             return csvRecords.Select(x =>
             {
-                var fields = SplitCSV(x).Select(s => s.Trim()).ToArray();
+                var fields = x.SplitCSV().Select(s => s.Trim()).ToArray();
                 var carReg = new Branch
                 {
                     Name = fields[BranchNameColumnIndex],

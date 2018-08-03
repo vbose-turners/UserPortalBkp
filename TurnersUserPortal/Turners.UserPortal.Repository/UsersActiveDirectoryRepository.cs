@@ -17,15 +17,33 @@ namespace Turners.UserPortal.Repository
             _rootEntry = new DirectoryEntry("LDAP://auctions.co.nz", "vbose", "Vb100207");
         }
 
-        public List<User> GetUsers(string userName, string departmentName)
+        public List<User> GetUsers(string userName, params string[] departmentNames)
         {
             var users = new List<User>();
             try
             {
-                var userNameQuery = string.IsNullOrEmpty(userName) ? "*" : $"*{userName}*";
-                var departmentNameQuery = string.IsNullOrEmpty(departmentName) ? "*" : $"*{departmentName}*";
+                var userNameQuery = string.IsNullOrEmpty(userName) ? "*" : $"*{userName.Trim()}*";
 
-                var query = $"(&(objectClass=user)(objectCategory=person)(|(SAMAccountName={userNameQuery})(name={userNameQuery}))(department={departmentNameQuery}))";
+                userNameQuery = $"(|(SAMAccountName={userNameQuery})(name={ userNameQuery}))";
+
+                var departmentNameQuery = "(department=*)";
+
+                if(departmentNames!=null && departmentNames.Any())
+                {
+                    if(departmentNames.Length == 1)
+                    {
+                        departmentNameQuery = $"(department=*{departmentNames[0].Trim()}*)";
+                    }
+                    else
+                    {
+                        departmentNameQuery = string.Empty;
+                        departmentNames.ToList().ForEach(x => departmentNameQuery += $"(department=*{x.Trim()}*)");
+
+                        departmentNameQuery = $"(|{departmentNameQuery})";
+                    }
+                }
+
+                var query = $"(&(objectClass=user)(objectCategory=person){userNameQuery}{departmentNameQuery})";
 
                 var searcher = new DirectorySearcher(_rootEntry);
 
@@ -45,7 +63,7 @@ namespace Turners.UserPortal.Repository
             catch(Exception e)
             {
                 _rootEntry.Close();
-                throw new Exception("Ërror in searching users in active directory: ", e.InnerException);
+                throw new Exception("Error in searching users in active directory: ", e.InnerException);
             }
             finally
             {

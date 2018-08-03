@@ -1,4 +1,4 @@
-﻿@model List<Turners.UserPortal.Domain.User>
+﻿@model Turners.UserPortal.Models.UserSearchViewModel
 
 @{
     ViewBag.Title = "Home Page";
@@ -14,28 +14,36 @@
         @using (Html.BeginForm("search", "home", FormMethod.Post))
         {
             <input type="text" name="userName" placeholder="User Name"/>
-            <input type="text" name="departmentName" placeholder="Department"/>
+            @Html.DropDownListFor(x => x.DepartmentName, Model.Departments, new { @placeholder= "Select a branch please"} )
+
             <input type="submit" value="Search"/>
+
         }
     </div >
     <div class="col-md-12">
+        @if (!string.IsNullOrWhiteSpace(Model.DepartmentAddress))
+        {
+           <em>Branch Address: </em> <span class="bg-primary">@Model.DepartmentAddress</span>
+        }
+    </div>
+    <div class="col-md-12">
 
         <p>
-            @if (Model!= null && Model.Count > 0)
+            @if (Model?.Users!= null && ((Model?.Users?.Count??0) > 0))
                 {
-                    var headerModel = Model[0];
+                    var headerModel = Model.Users[0];
 
                 <div id="DivRoot" align="left">
                     <div style="overflow: hidden;" id="DivHeaderRow" class="headerRow">
                         <table style="width:100%;">
                             <thead>
                                 <tr>
-                                    <th width="16%">@Html.LabelFor(x => x[0].Name)</th>
-                                    <th width="16%">@Html.LabelFor(x => x[0].JobDescription)</th>
-                                    <th width="16%">@Html.LabelFor(x => x[0].TelephoneNumber)</th>
-                                    <th width="16%">@Html.LabelFor(x => x[0].Extension)</th>
-                                    <th width="16%">@Html.LabelFor(x => x[0].Mobile)</th>
-                                    <th width="17%">@Html.LabelFor(x => x[0].Department)</th>
+                                    <th width="16%">@Html.LabelFor(x => x.Users[0].Name)</th>
+                                    <th width="16%">@Html.LabelFor(x => x.Users[0].JobDescription)</th>
+                                    <th width="16%">@Html.LabelFor(x => x.Users[0].TelephoneNumber)</th>
+                                    <th width="16%">@Html.LabelFor(x => x.Users[0].Extension)</th>
+                                    <th width="16%">@Html.LabelFor(x => x.Users[0].Mobile)</th>
+                                    <th width="17%">@Html.LabelFor(x => x.Users[0].Department)</th>
                                 </tr>
                             </thead>
                         </table>
@@ -44,7 +52,7 @@
                     <div style="overflow:scroll;" onscroll="OnScrollDiv(this)" id="DivMainContent" class="user-table-body">
                         <table style="width:100%;">
                             <tbody>
-                                @foreach (var user in Model)
+                                @foreach (var user in Model.Users)
                                 {
                                     <tr>
                                         <td width="16%">@user.Name</td>

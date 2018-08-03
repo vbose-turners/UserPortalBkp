@@ -31,23 +31,23 @@ namespace Turners.UserPortal.Service
             //rootEntry.Close();
 
 
-            var repo = new UsersActiveDirectoryRepository();
+            //var repo = new UsersActiveDirectoryRepository();
 
-            var users = repo.GetUsers("bose", string.Empty);
+            //var users = repo.GetUsers("bose", string.Empty);
 
-            foreach (var user in users)
-            {
-                Console.WriteLine("account name: {0}", user.Name);
-                Console.WriteLine("department name: {0}",user.Department);
-                Console.WriteLine("Job description: {0}", user.JobDescription);
-            }
+            //foreach (var user in users)
+            //{
+            //    Console.WriteLine("account name: {0}", user.Name);
+            //    Console.WriteLine("department name: {0}",user.Department);
+            //    Console.WriteLine("Job description: {0}", user.JobDescription);
+            //}
 
             var branchesSvc = new BranchesService(new BranchesCsvRepository());
-            var branches = branchesSvc.Branches;
+            var branches = branchesSvc.GetAllBranches().Result;
 
-            foreach (var x in branches.Keys)
+            foreach (var branch in branches)
             {
-                var branch = branchesSvc.GetBranchByName(x);
+                var branchT = branchesSvc.GetBranchByName(branch.Name.Trim());
 
                 Console.WriteLine("branch name: {0}", branch.Name);
                 Console.WriteLine("branch Aliases: {0}", branch.Aliases);

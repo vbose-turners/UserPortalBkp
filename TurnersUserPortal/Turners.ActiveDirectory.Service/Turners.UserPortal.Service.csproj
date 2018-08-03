@@ -57,6 +57,10 @@
       <Project>{61B29477-E982-47E4-A420-4AC2CE0EE5DA}</Project>
       <Name>Turners.UserPortal.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Turners.UserPortal.Helpers\Turners.UserPortal.Helpers.csproj">
+      <Project>{2336C9FF-1410-4981-A4ED-6CF436EA3513}</Project>
+      <Name>Turners.UserPortal.Helpers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Turners.UserPortal.Repository\Turners.UserPortal.Repository.csproj">
       <Project>{A87707C3-5203-4CEB-B7DF-8B0E4F587131}</Project>
       <Name>Turners.UserPortal.Repository</Name>

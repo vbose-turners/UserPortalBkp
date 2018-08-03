@@ -25,3 +25,5 @@ G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\D
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csproj.CopyComplete
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.pdb
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Helpers.dll
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Helpers.pdb

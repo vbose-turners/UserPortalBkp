@@ -22,6 +22,8 @@ namespace Turners.UserPortal.App_Start
 
             builder.RegisterType<UsersActiveDirectoryRepository>().As<IUserRepository>();
             builder.RegisterType<UsersService>().As<IUsersService>();
+            builder.RegisterType<BranchesCsvRepository>().As<IBranchesRepository>();
+            builder.RegisterType<BranchesService>().As<IBranchesService>().SingleInstance();
 
             var container = builder.Build();
 

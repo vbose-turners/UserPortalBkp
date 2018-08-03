@@ -53,6 +53,10 @@
       <Project>{61b29477-e982-47e4-a420-4ac2ce0ee5da}</Project>
       <Name>Turners.UserPortal.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Turners.UserPortal.Helpers\Turners.UserPortal.Helpers.csproj">
+      <Project>{2336C9FF-1410-4981-A4ED-6CF436EA3513}</Project>
+      <Name>Turners.UserPortal.Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

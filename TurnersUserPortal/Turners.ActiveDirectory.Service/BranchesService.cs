@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Turners.UserPortal.Domain;
+using Turners.UserPortal.Helpers;
 using Turners.UserPortal.Repository;
 
 namespace Turners.UserPortal.Service
@@ -11,38 +11,56 @@ namespace Turners.UserPortal.Service
     public class BranchesService : IBranchesService
     {
         private readonly IBranchesRepository _branchesRepository;
-        IDictionary<string, Branch> _branches;
+        private Dictionary<string, Branch> _branchesDictionary;
+        private List<Branch> _branches;
+        //private static readonly object lockObj = new object();
 
         public BranchesService(IBranchesRepository branchesRepository)
         {
             _branchesRepository = branchesRepository;
+            _branchesDictionary = new Dictionary<string, Branch>();
         }
 
 
-        public IDictionary<string, Branch> Branches
+        public Dictionary<string, Branch> BranchesDictionary
         {
             get
             {
-                if (_branches == null || !_branches.Any())
+                if (_branchesDictionary == null || !_branchesDictionary.Any())
                 {
-                    var allBranches = _branchesRepository.GetAllBranches().GetAwaiter().GetResult();
+                    _branchesDictionary = new Dictionary<string, Branch>();
 
-                    _branches = new Dictionary<string, Branch>();
-
-                    allBranches.ForEach(x =>
-                        {
-                            _branches.Add(x.Name, x);
-                        }
-                    );
+                    
+                    Branches.ForEach(x => _branchesDictionary.Add(x.Name.Trim().Sanitize(), x));
                 }
 
-                return _branches;
+                return _branchesDictionary;
             }
+        }
+
+        public List<Branch> Branches
+        {
+            get
+            {
+                return GetAllBranches().Result;
+            }
+        }
+
+        public async Task<List<Branch>> GetAllBranches()
+        {
+            if (_branches == null || !_branches.Any())
+            {
+                _branches = await _branchesRepository.GetAllBranches();
+            }
+
+            return _branches;
         }
 
         public Branch GetBranchByName(string name)
         {
-            if(Branches.TryGetValue(name, out Branch branch))
+            name = name.Sanitize();
+
+            if (BranchesDictionary.TryGetValue(name, out Branch branch))
             {
                 return branch;
             }
