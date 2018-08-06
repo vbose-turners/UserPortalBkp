@@ -24,7 +24,7 @@ namespace Turners.UserPortal.Repository
             {
                 var userNameQuery = string.IsNullOrEmpty(userName) ? "*" : $"*{userName.Trim()}*";
 
-                userNameQuery = $"(|(SAMAccountName={userNameQuery})(name={ userNameQuery}))";
+                userNameQuery = $"(|(SAMAccountName={userNameQuery})(name={ userNameQuery})(cn={userNameQuery}))";
 
                 var departmentNameQuery = "(department=*)";
 
@@ -54,6 +54,7 @@ namespace Turners.UserPortal.Repository
                 {
                     Name = GetValue(x, "name"),
                     JobDescription = GetValue(x, "title"),
+                    EmailAddress = GetValue(x, "mail"),
                     TelephoneNumber = GetValue(x, "telephoneNumber"),
                     Extension = GetValue(x, "otherTelephone"),
                     Mobile = GetValue(x, "mobile"),

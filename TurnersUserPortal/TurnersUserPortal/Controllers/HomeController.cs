@@ -27,12 +27,20 @@ namespace TurnersUserPortal.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Search(string userName, string departmentName)
+        public async Task<ActionResult> Search(UserSearchViewModel model)
         {
-            var users = _userService.GetUsers(userName, departmentName);
-            var model = await SetupUserSearchViewModel();
-            model.Users = users;
-            model.DepartmentAddress = _branchesService.GetBranchByName(departmentName)?.Address.Trim('"')??null;
+            var submitAction = Request.Form.Get(UserSearchViewModel.SubmitActionKey)??string.Empty;
+            
+            if (submitAction.Trim().Equals(UserSearchViewModel.Reset, StringComparison.OrdinalIgnoreCase))
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                model = await SetupUserSearchViewModel(model.UserName, model.DepartmentName);
+                var users = _userService.GetUsers(model.UserName, model.DepartmentName);
+                model.Users = users;
+            }
             return View("Index", model);
         }
 
@@ -49,13 +57,30 @@ namespace TurnersUserPortal.Controllers
 
             return View();
         }
-        private async Task<UserSearchViewModel> SetupUserSearchViewModel()
+        private async Task<UserSearchViewModel> SetupUserSearchViewModel(string userName = null, string departmentName = null)
         {
             var model = new UserSearchViewModel();
 
             var branches = await _branchesService.GetAllBranches();
 
-            model.Departments = branches.Select(x => new SelectListItem() { Text = x.Name, Value = x.Name }).ToList();
+            if (!string.IsNullOrWhiteSpace(userName))
+            {
+                model.UserName = userName;
+            }
+
+            model.Departments = branches.Select(x =>
+            {
+
+                var item = new SelectListItem() { Text = x.Name, Value = x.Name };
+
+                if (!string.IsNullOrWhiteSpace(departmentName) && item.Value == departmentName)
+                {
+                    item.Selected = true;
+                    model.DepartmentAddress = x.Address?.Trim('"') ?? null;
+                }
+
+                return item;
+            }).ToList();
 
             model.Departments.Insert(0, new SelectListItem() { Text = "Select a branch", Value = "" });
             return model;

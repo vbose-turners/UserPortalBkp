@@ -1,0 +1,23 @@
+﻿.user-table-container{
+    width:100%;
+    margin: 30px;
+}
+
+.user-table-header, .user-table-body {
+    display: block;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 150px 225px 150px 75px 150px 240px;
+    grid-gap: 3px;
+}
+
+.user-table-body {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+input, select{
+    margin:3px;
+    height: 30px;
+}

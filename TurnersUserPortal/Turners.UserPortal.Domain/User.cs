@@ -14,6 +14,9 @@ namespace Turners.UserPortal.Domain
         [DisplayName("Job Description")]
         public string JobDescription { get; set; }
 
+        [DisplayName("Email")]
+        public string EmailAddress { get; set; }
+
         [DisplayName("Telephone Number")]
         public string TelephoneNumber { get; set; }
 

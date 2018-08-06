@@ -10,6 +10,10 @@ namespace Turners.UserPortal.Models
 {
     public class UserSearchViewModel
     {
+        public const string Search = "Search";
+        public const string Reset = "Reset" ;
+        public const string SubmitActionKey = "submitAction";
+
         public List<User> Users { get; set; }
 
         [DisplayName("User Name")]
