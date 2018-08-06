@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,6 +14,8 @@ namespace TurnersUserPortal.Controllers
     {
         private readonly IUsersService _userService;
         private readonly IBranchesService _branchesService;
+        private Logger _logger = NLog.LogManager.GetCurrentClassLogger();
+
 
         public HomeController(IUsersService userService, IBranchesService branchesService)
         {
@@ -29,34 +32,29 @@ namespace TurnersUserPortal.Controllers
         [HttpPost]
         public async Task<ActionResult> Search(UserSearchViewModel model)
         {
-            var submitAction = Request.Form.Get(UserSearchViewModel.SubmitActionKey)??string.Empty;
-            
-            if (submitAction.Trim().Equals(UserSearchViewModel.Reset, StringComparison.OrdinalIgnoreCase))
+            try
             {
-                return RedirectToAction("Index");
+                var submitAction = Request.Form.Get(UserSearchViewModel.SubmitActionKey) ?? string.Empty;
+
+                if (submitAction.Trim().Equals(UserSearchViewModel.Reset, StringComparison.OrdinalIgnoreCase))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    model = await SetupUserSearchViewModel(model.UserName, model.DepartmentName);
+                    var users = _userService.GetUsers(model.UserName, model.DepartmentName);
+                    model.Users = users;
+                }
+                return View("Index", model);
             }
-            else
+            catch (Exception e)
             {
-                model = await SetupUserSearchViewModel(model.UserName, model.DepartmentName);
-                var users = _userService.GetUsers(model.UserName, model.DepartmentName);
-                model.Users = users;
+                _logger.Error(e, $"Error in searching for users with name: {model.UserName} and department : {model.DepartmentName} : {e.Message} \n {e.StackTrace}");
+                throw;
             }
-            return View("Index", model);
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
         private async Task<UserSearchViewModel> SetupUserSearchViewModel(string userName = null, string departmentName = null)
         {
             var model = new UserSearchViewModel();

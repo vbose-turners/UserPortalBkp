@@ -1,6 +1,6 @@
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Debug\Turners.UserPortal.Helpers.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Debug\Turners.UserPortal.Helpers.pdb
-G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Debug\Turners.UserPortal.Helpers.csprojAssemblyReference.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Debug\Turners.UserPortal.Helpers.csproj.CoreCompileInputs.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Debug\Turners.UserPortal.Helpers.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Debug\Turners.UserPortal.Helpers.pdb
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Debug\Turners.UserPortal.Helpers.csprojAssemblyReference.cache

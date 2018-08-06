@@ -19,11 +19,11 @@ C:\Users\vbose\source\repos\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Repository.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Repository.pdb
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Domain.dll
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Helpers.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Domain.pdb
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Helpers.pdb
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csprojAssemblyReference.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csproj.CoreCompileInputs.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.csproj.CopyComplete
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Debug\Turners.UserPortal.Repository.pdb
-G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Helpers.dll
-G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\bin\Debug\Turners.UserPortal.Helpers.pdb

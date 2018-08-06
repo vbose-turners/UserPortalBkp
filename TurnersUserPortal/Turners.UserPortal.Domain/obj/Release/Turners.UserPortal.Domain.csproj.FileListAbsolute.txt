@@ -1,0 +1,6 @@
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\bin\Release\Turners.UserPortal.Domain.dll
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\bin\Release\Turners.UserPortal.Domain.pdb
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.csprojAssemblyReference.cache
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.csproj.CoreCompileInputs.cache
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.dll
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.pdb

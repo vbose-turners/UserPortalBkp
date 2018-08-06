@@ -15,4 +15,3 @@ G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\bin\Debug
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Debug\Turners.UserPortal.Domain.csproj.CoreCompileInputs.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Debug\Turners.UserPortal.Domain.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Debug\Turners.UserPortal.Domain.pdb
-G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Debug\Turners.UserPortal.Domain.csprojAssemblyReference.cache

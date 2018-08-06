@@ -1,0 +1,5 @@
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Release\Turners.UserPortal.Helpers.dll
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Release\Turners.UserPortal.Helpers.pdb
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.csproj.CoreCompileInputs.cache
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.dll
+G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.pdb
