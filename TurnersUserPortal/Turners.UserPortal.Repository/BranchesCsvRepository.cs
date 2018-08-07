@@ -8,6 +8,7 @@ using Turners.UserPortal.Domain;
 using System.Configuration;
 using System.Text.RegularExpressions;
 using Turners.UserPortal.Helpers;
+using System.Web;
 
 namespace Turners.UserPortal.Repository
 {
@@ -30,6 +31,8 @@ namespace Turners.UserPortal.Repository
             {
                 throw new Exception($"Invalid Branches Csv File Path : {_filePath}");
             }
+
+            _filePath = HttpContext.Current.Server.MapPath(_filePath);
         }
 
         public async Task<List<Branch>> GetAllBranches()
