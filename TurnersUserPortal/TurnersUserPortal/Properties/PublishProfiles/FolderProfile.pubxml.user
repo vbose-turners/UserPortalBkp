@@ -13,19 +13,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/31/2018 15:48:50</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>10/09/2013 16:29:20</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>10/09/2013 16:29:20</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>07/31/2018 15:48:50</publishTime>
     </File>
     <File Include="bin/Autofac.dll">
-      <publishTime>09/05/2018 11:57:54</publishTime>
+      <publishTime>05/09/2018 11:57:54</publishTime>
     </File>
     <File Include="bin/Autofac.Integration.Mvc.dll">
-      <publishTime>10/04/2017 15:40:32</publishTime>
+      <publishTime>04/10/2017 15:40:32</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/27/2017 12:59:34</publishTime>
@@ -61,10 +61,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/18/2018 10:44:54</publishTime>
     </File>
     <File Include="bin/NLog.config">
-      <publishTime>06/08/2018 17:07:59</publishTime>
+      <publishTime>08/06/2018 17:07:59</publishTime>
     </File>
     <File Include="bin/NLog.dll">
-      <publishTime>05/08/2018 11:19:30</publishTime>
+      <publishTime>08/05/2018 11:19:30</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -208,67 +208,67 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/19/2017 10:01:30</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>01/02/2018 13:20:56</publishTime>
+      <publishTime>02/01/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>01/02/2018 13:16:32</publishTime>
+      <publishTime>02/01/2018 13:16:32</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>11/02/2014 16:26:04</publishTime>
+      <publishTime>02/11/2014 16:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>01/02/2018 13:16:56</publishTime>
+      <publishTime>02/01/2018 13:16:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>01/02/2018 13:20:56</publishTime>
+      <publishTime>02/01/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>01/02/2018 13:20:56</publishTime>
+      <publishTime>02/01/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>01/02/2018 13:20:56</publishTime>
+      <publishTime>02/01/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.dll">
-      <publishTime>08/07/2018 09:55:27</publishTime>
+      <publishTime>08/08/2018 16:35:56</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Domain.dll">
-      <publishTime>06/08/2018 17:49:41</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Domain.pdb">
-      <publishTime>06/08/2018 17:49:41</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Helpers.dll">
-      <publishTime>06/08/2018 17:49:41</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Helpers.pdb">
-      <publishTime>06/08/2018 17:49:41</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.pdb">
-      <publishTime>08/07/2018 09:55:27</publishTime>
+      <publishTime>08/08/2018 16:35:56</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Repository.dll">
-      <publishTime>06/08/2018 17:49:42</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Repository.pdb">
-      <publishTime>06/08/2018 17:49:42</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Service.exe">
-      <publishTime>06/08/2018 17:49:42</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Service.exe.config">
-      <publishTime>02/08/2018 16:16:46</publishTime>
+      <publishTime>08/02/2018 16:16:46</publishTime>
     </File>
     <File Include="bin/Turners.UserPortal.Service.pdb">
-      <publishTime>06/08/2018 17:49:42</publishTime>
+      <publishTime>08/08/2018 16:35:55</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 14:57:34</publishTime>
     </File>
     <File Include="Content/bootstrap-responsive.css">
-      <publishTime>06/08/2018 13:27:20</publishTime>
+      <publishTime>08/06/2018 13:27:20</publishTime>
     </File>
     <File Include="Content/bootstrap-responsive.min.css">
-      <publishTime>06/08/2018 13:27:20</publishTime>
+      <publishTime>08/06/2018 13:27:20</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>07/31/2018 15:48:42</publishTime>
@@ -283,28 +283,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/31/2018 15:48:42</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>06/08/2018 15:04:24</publishTime>
+      <publishTime>08/06/2018 15:04:24</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
       <publishTime>07/31/2018 15:48:42</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>06/08/2018 15:04:42</publishTime>
+      <publishTime>08/06/2018 15:04:42</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
       <publishTime>07/31/2018 15:48:41</publishTime>
     </File>
     <File Include="Content/images/glyphicons-halflings-white.png">
-      <publishTime>06/08/2018 13:27:20</publishTime>
+      <publishTime>08/06/2018 13:27:20</publishTime>
     </File>
     <File Include="Content/images/glyphicons-halflings.png">
-      <publishTime>06/08/2018 13:27:20</publishTime>
+      <publishTime>08/06/2018 13:27:20</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>06/08/2018 15:03:43</publishTime>
+      <publishTime>08/06/2018 15:03:43</publishTime>
     </File>
     <File Include="Content/user-search.css">
-      <publishTime>06/08/2018 16:50:15</publishTime>
+      <publishTime>07/08/2018 14:38:22</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/31/2018 15:48:34</publishTime>
@@ -328,13 +328,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/31/2018 15:48:34</publishTime>
     </File>
     <File Include="NLog.config">
-      <publishTime>06/08/2018 17:07:59</publishTime>
+      <publishTime>08/06/2018 17:07:59</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>06/08/2018 13:27:20</publishTime>
+      <publishTime>08/06/2018 13:27:20</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>06/08/2018 13:27:20</publishTime>
+      <publishTime>08/06/2018 13:27:20</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.js">
       <publishTime>07/31/2018 15:48:42</publishTime>
@@ -370,25 +370,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/31/2018 15:48:46</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/08/2018 16:55:14</publishTime>
+      <publishTime>07/08/2018 14:05:06</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/31/2018 15:48:48</publishTime>
     </File>
     <File Include="Views/Shared/NotFoundError.cshtml">
-      <publishTime>06/08/2018 18:07:17</publishTime>
+      <publishTime>08/06/2018 18:07:17</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>06/08/2018 16:53:54</publishTime>
+      <publishTime>08/06/2018 16:53:54</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>06/08/2018 18:57:14</publishTime>
+      <publishTime>08/06/2018 18:57:14</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
       <publishTime>07/31/2018 15:48:34</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/07/2018 09:57:31</publishTime>
+      <publishTime>08/07/2018 13:46:45</publishTime>
     </File>
   </ItemGroup>
 </Project>

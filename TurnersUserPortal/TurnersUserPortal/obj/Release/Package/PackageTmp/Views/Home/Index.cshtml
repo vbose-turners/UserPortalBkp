@@ -31,36 +31,41 @@
 
 
         <p>
-          
+
             @if (Model?.Users != null && ((Model?.Users?.Count ?? 0) > 0))
             {
                 var headerModel = Model.Users[0];
 
-                <div class="user-table-header">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>@Html.LabelFor(x => x.Users[0].Name)</th>
+                            <th>@Html.LabelFor(x => x.Users[0].JobDescription)</th>
+                            <th>@Html.LabelFor(x => x.Users[0].EmailAddress)</th>
+                            <th>@Html.LabelFor(x => x.Users[0].TelephoneNumber)</th>
+                            <th>@Html.LabelFor(x => x.Users[0].Extension)</th>
+                            <th>@Html.LabelFor(x => x.Users[0].Mobile)</th>
+                            <th>@Html.LabelFor(x => x.Users[0].Department)</th>
+                        </tr>
+                    </thead>
 
-                    <div>@Html.LabelFor(x => x.Users[0].Name)</div>
-                    <div>@Html.LabelFor(x => x.Users[0].JobDescription)</div>
-                    <div>@Html.LabelFor(x => x.Users[0].EmailAddress)</div>
-                    <div>@Html.LabelFor(x => x.Users[0].TelephoneNumber)</div>
-                    <div>@Html.LabelFor(x => x.Users[0].Extension)</div>
-                    <div>@Html.LabelFor(x => x.Users[0].Mobile)</div>
-                    <div>@Html.LabelFor(x => x.Users[0].Department)</div>
+                    <tbody>
+                        @foreach (var user in Model.Users)
+                        {
+                            <tr>
+                                <td>@user.Name</td>
+                                <td>@user.JobDescription</td>
+                                <td>@user.EmailAddress</td>
+                                <td>@user.TelephoneNumber</td>
+                                <td>@user.Extension</td>
+                                <td>@user.Mobile</td>
+                                <td>@user.Department</td>
+                            </tr>
+                        }
 
-                </div>
+                    </tbody>
+                </table>
 
-                <div class="user-table-body">
-                    @foreach (var user in Model.Users)
-                    {
-                        <div style="word-wrap: break-word;">@user.Name</div>
-                        <div style="word-wrap: break-word;">@user.JobDescription</div>
-                        <div style="word-wrap: break-word;">@user.EmailAddress</div>
-                        <div style="word-wrap: break-word;">@user.TelephoneNumber</div>
-                        <div style="word-wrap: break-word;">@user.Extension</div>
-                        <div style="word-wrap: break-word;">@user.Mobile</div>
-                        <div style="word-wrap: break-word;">@user.Department</div>
-                    }
-
-                </div>
             }
         </p>
 

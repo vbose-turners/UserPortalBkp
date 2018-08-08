@@ -75,6 +75,7 @@ namespace TurnersUserPortal.Controllers
                 {
                     item.Selected = true;
                     model.DepartmentAddress = x.Address?.Trim('"') ?? null;
+                    model.DepartmentName = departmentName;
                 }
 
                 return item;

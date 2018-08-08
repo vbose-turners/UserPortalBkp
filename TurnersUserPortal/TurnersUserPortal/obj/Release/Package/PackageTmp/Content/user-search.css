@@ -1,4 +1,4 @@
-﻿.user-table-container{
+﻿/*.user-table-container{
     width:100%;
     margin: 30px;
 }
@@ -15,9 +15,209 @@
     height: 300px;
     overflow-y: auto;
     overflow-x: auto;
-}
+}*/
 
 input, select{
     margin:3px;
     height: 30px;
+}
+
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table {
+    width: 1140px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: black;
+    color: #fff;
+}
+
+thead tr {
+    display: block;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+    word-break: break-all;
+}
+
+tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 300px;
+}
+
+@media only screen and (min-width: 1201px){
+
+    td:nth-child(1), th:nth-child(1) {
+        width: 150px;
+    }
+
+    td:nth-child(2), th:nth-child(2) {
+        width: 150px;
+    }
+
+    td:nth-child(3), th:nth-child(3) {
+        width: 225px;
+    }
+
+    td:nth-child(4), th:nth-child(4) {
+        width: 150px;
+    }
+
+    td:nth-child(5), th:nth-child(5) {
+        width: 100px;
+    }
+
+    td:nth-child(6), th:nth-child(6) {
+        width: 100px;
+    }
+
+    td:nth-child(7) {
+        width: 245px;
+    }
+
+    th:nth-child(7) {
+        width: 265px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+    table {
+        width: 940px;
+    }
+    td:nth-child(1), th:nth-child(1) {
+        width: 125px;
+    }
+
+    td:nth-child(2), th:nth-child(2) {
+        width: 125px;
+    }
+
+    td:nth-child(3), th:nth-child(3) {
+        width: 200px;
+    }
+
+    td:nth-child(4), th:nth-child(4) {
+        width: 125px;
+    }
+
+    td:nth-child(5), th:nth-child(5) {
+        width: 75px;
+    }
+
+    td:nth-child(6), th:nth-child(6) {
+        width: 75px;
+    }
+
+    td:nth-child(7) {
+        width: 195px;
+    }
+
+    th:nth-child(7) {
+        width: 215px;
+    }
+}
+    /* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 990px) {
+
+    table {
+        width: 100%;
+    }
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+        td:before {
+            /* Now like a table header */
+            position: absolute;
+            /* Top/left values mimic padding */
+            top: 6px;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+        }
+
+        /*
+Label the data
+                                    <th>@Html.LabelFor(x => x.Users[0].Name)</th>
+                        <th>@Html.LabelFor(x => x.Users[0].JobDescription)</th>
+                        <th>@Html.LabelFor(x => x.Users[0].EmailAddress)</th>
+                        <th>@Html.LabelFor(x => x.Users[0].TelephoneNumber)</th>
+                        <th>@Html.LabelFor(x => x.Users[0].Extension)</th>
+                        <th>@Html.LabelFor(x => x.Users[0].Mobile)</th>
+                        <th>@Html.LabelFor(x => x.Users[0].Department)</th>
+*/
+        td:nth-of-type(1):before {
+            content: "Name";
+        }
+
+        td:nth-of-type(2):before {
+            content: "Job Description";
+        }
+
+        td:nth-of-type(3):before {
+            content: "Email Address";
+        }
+
+        td:nth-of-type(4):before {
+            content: "Telephone Number";
+        }
+
+        td:nth-of-type(5):before {
+            content: "Extension";
+        }
+
+        td:nth-of-type(6):before {
+            content: "Mobile";
+        }
+
+        td:nth-of-type(7):before {
+            content: "Department";
+        }
 }
