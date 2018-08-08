@@ -4,3 +4,8 @@ G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Relea
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.csproj.CoreCompileInputs.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Domain\bin\Release\Turners.UserPortal.Domain.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Domain\bin\Release\Turners.UserPortal.Domain.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Domain\obj\Release\Turners.UserPortal.Domain.pdb

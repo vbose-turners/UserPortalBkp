@@ -3,3 +3,8 @@ G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Rele
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.csproj.CoreCompileInputs.cache
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Release\Turners.UserPortal.Helpers.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Helpers\bin\Release\Turners.UserPortal.Helpers.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Helpers\obj\Release\Turners.UserPortal.Helpers.pdb

@@ -12,3 +12,17 @@ G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Release\Turners.UserPortal.Service.csproj.CopyComplete
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Release\Turners.UserPortal.Service.exe
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.ActiveDirectory.Service\obj\Release\Turners.UserPortal.Service.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Service.exe.config
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Service.exe
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Service.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Domain.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Helpers.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Repository.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Domain.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Helpers.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\bin\Release\Turners.UserPortal.Repository.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\obj\Release\Turners.UserPortal.Service.csprojAssemblyReference.cache
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\obj\Release\Turners.UserPortal.Service.csproj.CoreCompileInputs.cache
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\obj\Release\Turners.UserPortal.Service.csproj.CopyComplete
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\obj\Release\Turners.UserPortal.Service.exe
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Service\obj\Release\Turners.UserPortal.Service.pdb

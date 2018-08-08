@@ -9,3 +9,14 @@ G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\R
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.csproj.CopyComplete
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.dll
 G:\Projects\UserPortal_Git\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\bin\Release\Turners.UserPortal.Repository.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\bin\Release\Turners.UserPortal.Repository.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\bin\Release\Turners.UserPortal.Domain.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\bin\Release\Turners.UserPortal.Helpers.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\bin\Release\Turners.UserPortal.Domain.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\bin\Release\Turners.UserPortal.Helpers.pdb
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.csprojAssemblyReference.cache
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.csproj.CoreCompileInputs.cache
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.csproj.CopyComplete
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.dll
+C:\Users\vbose\source\repos\UserPortal_svn\ADUserSearch\TurnersUserPortal\Turners.UserPortal.Repository\obj\Release\Turners.UserPortal.Repository.pdb

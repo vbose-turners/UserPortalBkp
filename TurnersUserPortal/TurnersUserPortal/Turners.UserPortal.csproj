@@ -222,7 +222,7 @@
     <Content Include="Views\Shared\NotFoundError.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\TurnersBranches\" />
+    <Folder Include="App_Data\Branches\" />
     <Folder Include="Views\Error\" />
   </ItemGroup>
   <ItemGroup>
@@ -239,10 +239,6 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Turners.ActiveDirectory.Service\Turners.UserPortal.Service.csproj">
-      <Project>{5BB50848-DAF5-41C8-A0CE-7C6EF62CE831}</Project>
-      <Name>Turners.UserPortal.Service</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Turners.UserPortal.Domain\Turners.UserPortal.Domain.csproj">
       <Project>{61B29477-E982-47E4-A420-4AC2CE0EE5DA}</Project>
       <Name>Turners.UserPortal.Domain</Name>
@@ -250,6 +246,10 @@
     <ProjectReference Include="..\Turners.UserPortal.Repository\Turners.UserPortal.Repository.csproj">
       <Project>{A87707C3-5203-4CEB-B7DF-8B0E4F587131}</Project>
       <Name>Turners.UserPortal.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Turners.UserPortal.Service\Turners.UserPortal.Service.csproj">
+      <Project>{5BB50848-DAF5-41C8-A0CE-7C6EF62CE831}</Project>
+      <Name>Turners.UserPortal.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
